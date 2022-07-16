@@ -19,6 +19,8 @@ repositories {
 }
 
 dependencies {
+	implementation 'org.apache.commons:commons-pool2:2.11.1'
+	implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'io.lettuce:lettuce-core:6.2.0.RELEASE'
